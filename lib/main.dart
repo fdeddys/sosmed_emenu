@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
             title: 'Sosial Media',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
-                primarySwatch: Colors.blue,
+                // primarySwatch: ThemeData.light()
+                primaryColor: Colors.white
             ),
             home: FeedScreen(),
         );

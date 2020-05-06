@@ -1,4 +1,4 @@
 
 library pos_cahsier.globals;
 
-String serverPath  = 'http://54.251.137.12:8001/v0.1.0';
+String serverPath  = 'http://52.221.255.231:8200/v1';

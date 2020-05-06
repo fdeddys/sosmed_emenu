@@ -17,10 +17,10 @@ class _MainPageState extends State<MainPage> {
     }
 
     getDataAllPost() {
-        for (var i = 0; i < 10; i++) {
-            Post pos = new Post(i, "posting " + i.toString() , i*2, i, '2020-27-04', 72, "https://picsum.photos/200/300","","");
-            posts.add(pos);
-        }
+        // for (var i = 0; i < 10; i++) {
+        //     Post pos = new Post(i.toString(), "posting " + i.toString() , i*2, i, '2020-27-04', 72, "https://picsum.photos/200/300","","",0);
+        //     posts.add(pos);
+        // }
         print('total ' + posts.length.toString());
     }
 
